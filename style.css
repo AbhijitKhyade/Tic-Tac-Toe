@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    background: radial-gradient(#7e4b8b, #f8ccf9);
+    background-position: center;
+    /* background-image: url("../assets/background.webp"); */
+    text-align: center;
+}
+
+.initial-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-container #start-heading {
+    margin-top: -10rem;
+    font-size: 3.5rem;
+    color: #f0f0f0;
+}
+
+
+.initial-container input {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #c0b8c2;
+    backdrop-filter: blur(10px);
+    background: rgba(170, 170, 170, 0.3);
+}
+
+.initial-container input[type="text"] {
+    color: #f0f0f0;
+}
+
+input::placeholder {
+    color: #f0f0f0;
+}
+
+.initial-container .play-game {
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #7e4b8b;
+    color: #fbf1f9;
+    border-radius: 0.9rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #978d94;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 4vmax;
+    color: #fbf1f9;
+}
+
+#reset-btn {
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #7e4b8b;
+    color: #fbf1f9;
+    border-radius: 0.9rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#msg {
+    color: #f0f0f0;
+    font-size: 6vmin;
+}
+
+#new-game-btn {
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #7e4b8b;
+    color: #fbf1f9;
+    border-radius: 0.9rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
